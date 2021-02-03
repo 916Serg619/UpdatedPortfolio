@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto:wght@100;300;400&display=swap');
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-.max-width{
+.max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
@@ -16,6 +14,7 @@
 
 
 /*navbar CSS */
+
 .navbar {
     background: transparent;
     position: fixed;
@@ -23,34 +22,40 @@
     padding: 15px 0;
     font-family: 'Roboto', sans-serif;
 }
-.navbar .max-width{
+
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+
+.navbar .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
 
-.navbar .menu li{
+.navbar .menu li {
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
+
+.navbar .menu li a {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
+
 .navbar .menu li a:hover {
     color: rgb(9, 255, 222);
 }
 
+
 /*Scroll button*/
-.scroll-up-btn{
+
+.scroll-up-btn {
     position: fixed;
     height: 45px;
     width: 42px;
@@ -68,21 +73,27 @@
     pointer-events: none;
     transition: all 0.3s ease;
 }
-.scroll-up-btn.show{
+
+.scroll-up-btn.show {
     opacity: 1;
     pointer-events: auto;
     bottom: 30px;
 }
+
+
 /* Menu Button*/
-.menu-btn{
+
+.menu-btn {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
     display: none;
 }
-.menu-btn i.active:before{
+
+.menu-btn i.active:before {
     content: "\f00d";
 }
+
 
 /* Home Section */
 
@@ -95,30 +106,36 @@
     min-height: 500px;
 }
 
-.home .home-content .text-1{
+.home .home-content .text-1 {
     font-size: 50px;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
-.text-1{
+
+.text-1 {
     scroll-padding-left: 175px;
 }
-.home .home-content .text-2{
+
+.home .home-content .text-2 {
     font-size: 100px;
     font-weight: 600px;
     font-family: 'Roboto', sans-serif;
 }
 
+
 /*About Section*/
-section{
+
+section {
     padding: 100px 0;
     background: #111;
 }
-.about{
+
+.about {
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
-.about .title{
+
+.about .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -127,30 +144,35 @@ section{
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.about .about-content{
+
+.about .about-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
-.about .about-content .column-left{
+
+.about .about-content .column-left {
     width: 45%;
 }
-.about .about-content .column-left img{
+
+.about .about-content .column-left img {
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
-.about .about-content .column-right{
+
+.about .about-content .column-right {
     width: 55%;
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.about .about-content .column-right a{
+
+.about .about-content .column-right a {
     display: inline-block;
-    background:  rgb(10, 223, 194);
+    background: rgb(10, 223, 194);
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
@@ -159,18 +181,21 @@ section{
     border: 2px solid rgb(10, 223, 194);
     transition: all 0.3s ease;
 }
-.about .about-content .column-right a:hover{
+
+.about .about-content .column-right a:hover {
     color: rgb(10, 223, 194);
     background: none;
 }
 
+
 /*Services Section*/
-.services{
+
+.services {
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    
 }
-.services .service-content .card{
+
+.services .service-content .card {
     width: calc(33%-20px);
     background: #222;
     text-align: center;
@@ -178,7 +203,8 @@ section{
     padding: 25px 25px;
     cursor: pointer;
 }
-.services .title{
+
+.services .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -188,13 +214,15 @@ section{
     font-family: 'Roboto', sans-serif;
 }
 
+
 /*Projects Section*/
-.projects{
+
+.projects {
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    
 }
-.projects .proj-content .card{
+
+.projects .proj-content .card {
     width: calc(33%-20px);
     background: #222;
     text-align: center;
@@ -202,7 +230,8 @@ section{
     padding: 25px 25px;
     cursor: pointer;
 }
-.projects .title{
+
+.projects .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -211,15 +240,17 @@ section{
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.projects .proj-content .card .box img{
-    height: 400px;
-    width: 400px;
+
+.projects .proj-content .card .box img {
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 6px;
 }
-.projects .proj-content .card .box a{
+
+.projects .proj-content .card .box a {
     display: inline-block;
-    background:  rgb(10, 223, 194);
+    background: rgb(10, 223, 194);
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
@@ -228,86 +259,108 @@ section{
     border: 2px solid rgb(10, 223, 194);
     transition: all 0.3s ease;
 }
-.projects .proj-content .card .box a:hover{
+
+.projects .proj-content .card .box a:hover {
     color: rgb(10, 223, 194);
     background: none;
 }
-.projects .proj-content .column-right{
+
+.projects .proj-content .column-right {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
-.projects .proj-content .column-right a{
+
+.projects .proj-content .column-right a {
     display: inline-block;
-    background:  rgb(10, 223, 194);
+    background: rgb(10, 223, 194);
     color: #fff;
     font-size: 20px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid rgb(10, 223, 194);
     transition: all 0.3s ease;
 }
-.about .about-content .column-right a:hover{
+
+.about .about-content .column-right a:hover {
     color: rgb(10, 223, 194);
     background: none;
 }
 
+.text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.link {
+    align-items: center;
+}
+
+
 /*Contact Section*/
-.contact{
-    font-family: 'Roboto',sans-serif;
+
+.contact {
+    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
-.contact .contact-content .row .column .left{
+
+.contact .contact-content .row .column .left {
     display: inline-block;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between; 
-}
-.contact .title{
-    padding-bottom: 20px;
-        position: relative;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 500px;
-        margin-bottom: 60px;
-        padding-bottom: 20px;
-        font-family: 'Roboto', sans-serif;
-    
+    justify-content: space-between;
 }
 
-.contact .contact-content .column{
+.contact .title {
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact .contact-content .column {
     width: calc(50%-30px);
 }
-.contact .contact-content .text{
+
+.contact .contact-content .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.contact .contact-content .left p{
+
+.contact .contact-content .left p {
     text-align: justify;
 }
-.contact .contact-content .row{
+
+.contact .contact-content .row {
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .row .info{
+
+.contact .contact-content .row .info {
     margin-left: 30px;
 }
-.contact .contact-content .info i{
+
+.contact .contact-content .info i {
     font-size: 25px;
     color: rgb(10, 223, 194);
 }
-.contact .contact-content .left .icons i{
+
+.contact .contact-content .left .icons i {
     margin: 10px 0;
     padding-left: 50px;
-    
 }
-.contact .contact-content .info a{
+
+.contact .contact-content .info a {
     display: inline-block;
-    background:  rgb(10, 223, 194);
+    background: rgb(10, 223, 194);
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
@@ -316,77 +369,76 @@ section{
     border: 2px solid rgb(10, 223, 194);
     transition: all 0.3s ease;
 }
-contact .contact-content .info a:hover{
+
+contact .contact-content .info a:hover {
     color: rgb(10, 223, 194);
     background: none;
 }
 
 
 /*responsive media query*/
+
 @media (max-width: 1070px) {
-    .home .max-width{
+    .home .max-width {
         margin-left: 0px;
     }
 }
+
 @media (max-width: 1070px) {
-    .about .about-content .column-left img{
+    .about .about-content .column-left img {
         height: 300px;
         width: 300px;
     }
 }
-@media (max-width: 696px){
-    
-    .max-width{
+
+@media (max-width: 696px) {
+    .max-width {
         padding: 0 50px;
     }
-    .menu-btn{
+    .menu-btn {
         display: block;
         z-index: 999;
     }
-    .navbar .menu{
+    .navbar .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111; 
+        background: #111;
         text-align: center;
         padding-top: 50px;
         transition: all 0.3s ease;
     }
-    .navbar .menu.active{
+    .navbar .menu.active {
         left: 0;
     }
-    .navbar .menu li{
+    .navbar .menu li {
         display: block;
     }
-    .navbar .menu li a{
+    .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-    .home .home-content .text-1{
+    .home .home-content .text-1 {
         font-size: px;
-        
     }
-    
-    .home .home-content .text-2{
+    .home .home-content .text-2 {
         font-size: 100px;
     }
-    .max-width{
+    .max-width {
         max-width: 800px;
-        
     }
-    .about .about-content .column{
+    .about .about-content .column {
         width: 100%;
     }
-    .about .about-content .column-left{
+    .about .about-content .column-left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .column-right{
+    .about .about-content .column-right {
         flex: 100%;
     }
-    
 }
